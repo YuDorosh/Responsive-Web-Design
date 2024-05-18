@@ -1,0 +1,21 @@
+.page {
+  background-color: #fff;
+}
+
+.page_content {
+  max-width: 960px;
+  margin: 0 auto;
+  /* background: gray; */
+}
+.header {
+  padding: 24px;
+}
+
+.header_logo {
+  font-size: 18px;
+}
+.divider {
+  margin: 0;
+  height: 1px;
+  background-color: #dee2e6;
+}
