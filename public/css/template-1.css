@@ -1,5 +1,6 @@
 .page {
   background-color: #fff;
+  padding: 0  15px;
 }
 
 .page_content {
@@ -64,20 +65,35 @@
 }
 
 .footer{
-  padding: 24px 0;
+  padding: 24px 0px;
 }
 
-.footer-copyright{
+.footer_copyright{
   font-size: 14px;
   color: #000000;
   display: block;
   margin-top: 12px;
 }
 
-.footer-title{
+.footer_title{
   font-size: 20px;
   color: #212529;
   display: block; 
   margin-bottom: 12px;
 }
 
+.hero_title{
+  font-size: 56px;
+  color: #212529;
+  font-weight: 500;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.hero_text{
+    font-size: 20px;
+    color: #212529;
+    text-align: center;
+    max-width: 585px;
+    margin: 0 auto;
+}
