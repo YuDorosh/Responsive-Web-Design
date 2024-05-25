@@ -23,8 +23,22 @@
 </div>
 
 <div class="page_block">
-  <h1 class="hero_title">{{hero.title}}</h1> 
-  <p class="hero_text">{{hero.text}}</p> 
+  {{> hero title=hero.title text=hero.text}}
+</div>
+
+<div class="page_block">
+<main class="row g-0 plans">
+   
+  {{#each plans}}
+
+  <div class="col plans_card"> 
+    {{> card data=this}}
+  </div>
+  
+    {{/each}}
+</main>
+
+
 </div>
 
 <div class="page_block">
@@ -36,7 +50,7 @@
 </div>
 
         {{#each footer}}
-            <div class="col-3">
+            <div class="col-3 ">
              <span class="footer_title column"> {{title}} </span>
              {{>nav list=links  isVertical=true}}
             </div>
